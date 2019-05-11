@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers|Indie+Flower|Lalezar|Luckiest+Guy');
+
+
+* {
+    padding: 0 auto;
+    margin: 0 auto;
+    background-color: #61A0FF;
+    font-family: "Lalezar", sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+main {
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: 1.5fr 2fr;
+}
+
+h1 {
+    color: #FFF700;
+    text-shadow: 0 0 5px #080076;
+    font-size: 50px;
+    padding: 20px;
+}
+
+#playAgain {
+    color: #FFF700;
+    text-shadow: 0 0 5px #080076;
+    padding: 08px 20px;
+    border-radius: 50%;
+    border: 2px solid #080076;
+    font-size: 1.5em;
+    background-color: #2F6DCA;
+    margin: 10px auto 25px;
+    
+}
+.wins {
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+}
+
+h3 {
+    color: #080076;
+    font-size: 26px;
+    align-self: right;
+}
+
+h4, #remAtt {
+    color: #FF6F00;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    font-size: 26px;
+}
+
+#yrWins, #pcWins {
+    color: #FFF700;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    font-size: 26px;
+
+}
+
+h2, #word {
+    color: #FFF700;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    font-size: 36px;
+    padding: 2px;
+}
+
+#wrongChars, #message {
+    color: #FF6F00;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    font-size: 26px;
+    padding: 2px;
+}
+
