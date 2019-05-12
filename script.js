@@ -3,7 +3,7 @@ let words = ["CHICKEN", "CHEESE", "RICE", "EGGS", "APPLES", "SOUP", "YOGURT", "B
 let selWord = words[Math.floor(Math.random()*words.length)];
 let hiddenWord = [];
 let wrongChars = [];
-let imgX = "https://raw.githubusercontent.com/JohannaXX/TheHangmanGame/master/images/img1.jpg";
+let imgX = "https://raw.githubusercontent.com/JohannaXX/TheHangmanGame/master/images/img0.jpg";
 document.getElementById("imgX").src = imgX;
 
 let yrWins = 0;
@@ -67,40 +67,40 @@ var game = function(play) {
                 document.getElementById("remAtt").innerHTML = remAtt;
                 switch (remAtt) {
                     case 10:
-                        document.getElementById("imgX").src = "https://github.com/JohannaXX/TheHangmanGame/blob/master/images/img1.JPG";
+                        document.getElementById("imgX").src = "https://raw.githubusercontent.com/JohannaXX/TheHangmanGame/master/images/img1.JPG";
                         break;
                     case 9:
-                        document.getElementById("imgX").src = "https://github.com/JohannaXX/TheHangmanGame/blob/master/images/img2.JPG";
+                        document.getElementById("imgX").src = "https://raw.githubusercontent.com/JohannaXX/TheHangmanGame/master/images/img2.JPG";
                         break;
                     case 8:
-                        document.getElementById("imgX").src = "https://github.com/JohannaXX/TheHangmanGame/blob/master/images/img3.JPG";
+                        document.getElementById("imgX").src = "https://raw.githubusercontent.com/JohannaXX/TheHangmanGame/master/images/img3.JPG";
                         break;
                     case 7:
-                        document.getElementById("imgX").src = "https://github.com/JohannaXX/TheHangmanGame/blob/master/images/img4.JPG";
+                        document.getElementById("imgX").src = "https://raw.githubusercontent.com/JohannaXX/TheHangmanGame/master/images/img4.JPG";
                         break;
                     case 6:
-                        document.getElementById("imgX").src = "https://github.com/JohannaXX/TheHangmanGame/blob/master/images/img5.JPG";
+                        document.getElementById("imgX").src = "https://raw.githubusercontent.com/JohannaXX/TheHangmanGame/master/images/img5.JPG";
                         break;
                     case 5:
-                        document.getElementById("imgX").src = "https://github.com/JohannaXX/TheHangmanGame/blob/master/images/img6.JPG";
+                        document.getElementById("imgX").src = "https://raw.githubusercontent.com/JohannaXX/TheHangmanGame/master/images/img6.JPG";
                         break;
                     case 4:
-                        document.getElementById("imgX").src = "https://github.com/JohannaXX/TheHangmanGame/blob/master/images/img7.JPG";
+                        document.getElementById("imgX").src = "https://raw.githubusercontent.com/JohannaXX/TheHangmanGame/master/images/img7.JPG";
                         break;
                     case 3:
-                        document.getElementById("imgX").src = "https://github.com/JohannaXX/TheHangmanGame/blob/master/images/img8.JPG";
+                        document.getElementById("imgX").src = "https://raw.githubusercontent.com/JohannaXX/TheHangmanGame/master/images/img8.JPG";
                         break;
                     case 2:
-                        document.getElementById("imgX").src = "https://github.com/JohannaXX/TheHangmanGame/blob/master/images/img9.JPG";
+                        document.getElementById("imgX").src = "https://raw.githubusercontent.com/JohannaXX/TheHangmanGame/master/images/img9.JPG";
                         break;
                     case 1:
-                        document.getElementById("imgX").src = "https://github.com/JohannaXX/TheHangmanGame/blob/master/images/img10.JPG";
+                        document.getElementById("imgX").src = "https://raw.githubusercontent.com/JohannaXX/TheHangmanGame/master/images/img10.JPG";
                         break;
                 } 
             }    
             if (remAtt === 0) {
                     document.getElementById("message").innerHTML = "Oh no, you lost! The word was:  "+ selWord;
-                    document.getElementById("imgX").src = "https://github.com/JohannaXX/TheHangmanGame/blob/master/images/img11.JPG";
+                    document.getElementById("imgX").src = "https://raw.githubusercontent.com/JohannaXX/TheHangmanGame/master/images/img11.JPG";
                     
                     pcWins += 1;
                     document.getElementById("pcWins").innerHTML = pcWins;
@@ -130,6 +130,6 @@ document.getElementById("playAgain").onclick = function(playAgain) {
     document.getElementById("remAtt").innerHTML = remAtt;
     selWord = words[Math.floor(Math.random()*words.length)];
     
-    document.getElementById("imgX").src = "https://github.com/JohannaXX/TheHangmanGame/blob/master/images/img0.jpg";
+    document.getElementById("imgX").src = "https://raw.githubusercontent.com/JohannaXX/TheHangmanGame/master/images/img0.jpg";
     game();
 }
