@@ -67,40 +67,40 @@ var game = function(play) {
                 document.getElementById("remAtt").innerHTML = remAtt;
                 switch (remAtt) {
                     case 10:
-                        document.getElementById("imgX").src = "https://raw.githubusercontent.com/JohannaXX/TheHangmanGame/master/images/img1.JPG";
+                        document.getElementById("imgX").src = "https://raw.githubusercontent.com/JohannaXX/TheHangmanGame/master/images/img1.jpg";
                         break;
                     case 9:
-                        document.getElementById("imgX").src = "https://raw.githubusercontent.com/JohannaXX/TheHangmanGame/master/images/img2.JPG";
+                        document.getElementById("imgX").src = "https://raw.githubusercontent.com/JohannaXX/TheHangmanGame/master/images/img2.jpg";
                         break;
                     case 8:
-                        document.getElementById("imgX").src = "https://raw.githubusercontent.com/JohannaXX/TheHangmanGame/master/images/img3.JPG";
+                        document.getElementById("imgX").src = "https://raw.githubusercontent.com/JohannaXX/TheHangmanGame/master/images/img3.jpg";
                         break;
                     case 7:
-                        document.getElementById("imgX").src = "https://raw.githubusercontent.com/JohannaXX/TheHangmanGame/master/images/img4.JPG";
+                        document.getElementById("imgX").src = "https://raw.githubusercontent.com/JohannaXX/TheHangmanGame/master/images/img4.jpg";
                         break;
                     case 6:
-                        document.getElementById("imgX").src = "https://raw.githubusercontent.com/JohannaXX/TheHangmanGame/master/images/img5.JPG";
+                        document.getElementById("imgX").src = "https://raw.githubusercontent.com/JohannaXX/TheHangmanGame/master/images/img5.jpg";
                         break;
                     case 5:
-                        document.getElementById("imgX").src = "https://raw.githubusercontent.com/JohannaXX/TheHangmanGame/master/images/img6.JPG";
+                        document.getElementById("imgX").src = "https://raw.githubusercontent.com/JohannaXX/TheHangmanGame/master/images/img6.jpg";
                         break;
                     case 4:
-                        document.getElementById("imgX").src = "https://raw.githubusercontent.com/JohannaXX/TheHangmanGame/master/images/img7.JPG";
+                        document.getElementById("imgX").src = "https://raw.githubusercontent.com/JohannaXX/TheHangmanGame/master/images/img7.jpg";
                         break;
                     case 3:
-                        document.getElementById("imgX").src = "https://raw.githubusercontent.com/JohannaXX/TheHangmanGame/master/images/img8.JPG";
+                        document.getElementById("imgX").src = "https://raw.githubusercontent.com/JohannaXX/TheHangmanGame/master/images/img8.jpg";
                         break;
                     case 2:
-                        document.getElementById("imgX").src = "https://raw.githubusercontent.com/JohannaXX/TheHangmanGame/master/images/img9.JPG";
+                        document.getElementById("imgX").src = "https://raw.githubusercontent.com/JohannaXX/TheHangmanGame/master/images/img9.jpg";
                         break;
                     case 1:
-                        document.getElementById("imgX").src = "https://raw.githubusercontent.com/JohannaXX/TheHangmanGame/master/images/img10.JPG";
+                        document.getElementById("imgX").src = "https://raw.githubusercontent.com/JohannaXX/TheHangmanGame/master/images/img10.jpg";
                         break;
                 } 
             }    
             if (remAtt === 0) {
                     document.getElementById("message").innerHTML = "Oh no, you lost! The word was:  "+ selWord;
-                    document.getElementById("imgX").src = "https://raw.githubusercontent.com/JohannaXX/TheHangmanGame/master/images/img11.JPG";
+                    document.getElementById("imgX").src = "https://raw.githubusercontent.com/JohannaXX/TheHangmanGame/master/images/img11.jpg";
                     
                     pcWins += 1;
                     document.getElementById("pcWins").innerHTML = pcWins;
