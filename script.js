@@ -3,7 +3,7 @@ let words = ["CHICKEN", "CHEESE", "RICE", "EGGS", "APPLES", "SOUP", "YOGURT", "B
 let selWord = words[Math.floor(Math.random()*words.length)];
 let hiddenWord = [];
 let wrongChars = [];
-let imgX = "https://github.com/JohannaXX/TheHangmanGame/blob/master/images/img0.jpg";
+let imgX = "https://github.com/JohannaXX/TheHangmanGame/blob/master/images/img1.jpg";
 document.getElementById("imgX").src = imgX;
 
 let yrWins = 0;
