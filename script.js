@@ -4,7 +4,7 @@ let selWord = words[Math.floor(Math.random()*words.length)];
 let hiddenWord = [];
 let wrongChars = [];
 let imgX = "https://github.com/JohannaXX/TheHangmanGame/blob/master/images/img1.jpg";
-document.getElementById("imgX").src = "https://github.com/JohannaXX/TheHangmanGame/blob/master/images/img1.jpg";
+document.getElementById("imgX").href = "https://github.com/JohannaXX/TheHangmanGame/blob/master/images/img1.jpg";
 
 let yrWins = 0;
 document.getElementById("yrWins").innerHTML = yrWins;
