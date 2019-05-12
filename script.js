@@ -67,10 +67,10 @@ var game = function(play) {
                 document.getElementById("remAtt").innerHTML = remAtt;
                 switch (remAtt) {
                     case 10:
-                        document.getElementById("imgX").src = "https://github.com/JohannaXX/TheHangmanGame/blob/master/images/img1.JPG";
+                        document.getElementById("imgX").href = "https://github.com/JohannaXX/TheHangmanGame/blob/master/images/img1.JPG";
                         break;
                     case 9:
-                        document.getElementById("imgX").src = "https://github.com/JohannaXX/TheHangmanGame/blob/master/images/img2.JPG";
+                        document.getElementById("imgX").href = "https://github.com/JohannaXX/TheHangmanGame/blob/master/images/img2.JPG";
                         break;
                     case 8:
                         document.getElementById("imgX").src = "https://github.com/JohannaXX/TheHangmanGame/blob/master/images/img3.JPG";
