@@ -3,8 +3,8 @@ let words = ["CHICKEN", "CHEESE", "RICE", "EGGS", "APPLES", "SOUP", "YOGURT", "B
 let selWord = words[Math.floor(Math.random()*words.length)];
 let hiddenWord = [];
 let wrongChars = [];
-let imgX = "https://github.com/JohannaXX/TheHangmanGame/blob/master/images/img1.jpg";
-document.getElementById("imgX").href = "https://github.com/JohannaXX/TheHangmanGame/blob/master/images/img1.jpg";
+let imgX = "https://github.com/JohannaXX/TheHangmanGame/blob/master/images/img0.jpg";
+document.getElementById("imgX").href = "https://github.com/JohannaXX/TheHangmanGame/blob/master/images/img0.jpg";
 
 let yrWins = 0;
 document.getElementById("yrWins").innerHTML = yrWins;
@@ -67,10 +67,10 @@ var game = function(play) {
                 document.getElementById("remAtt").innerHTML = remAtt;
                 switch (remAtt) {
                     case 10:
-                        document.getElementById("imgX").href = "https://github.com/JohannaXX/TheHangmanGame/blob/master/images/img1.JPG";
+                        document.getElementById("imgX").src = "https://github.com/JohannaXX/TheHangmanGame/blob/master/images/img1.JPG";
                         break;
                     case 9:
-                        document.getElementById("imgX").href = "https://github.com/JohannaXX/TheHangmanGame/blob/master/images/img2.JPG";
+                        document.getElementById("imgX").src = "https://github.com/JohannaXX/TheHangmanGame/blob/master/images/img2.JPG";
                         break;
                     case 8:
                         document.getElementById("imgX").src = "https://github.com/JohannaXX/TheHangmanGame/blob/master/images/img3.JPG";
