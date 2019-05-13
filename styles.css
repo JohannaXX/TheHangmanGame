@@ -2,7 +2,7 @@
 
 
 * {
-    padding: 0 auto;
+    padding: 0;
     margin: 0 auto;
     background-color: #61A0FF;
     font-family: "Lalezar", sans-serif;
@@ -46,7 +46,7 @@ h1 {
 h3 {
     color: #080076;
     font-size: 26px;
-    align-self: right;
+    align-self:center;
 }
 
 h4, #remAtt {
@@ -83,7 +83,7 @@ h2, #word {
     padding: 2px;
 }
 
-#imgX [
-    height: 80px;
-    width: 80px;
-]
+#imgX {
+    max-height: 200px;
+    max-width: 200px;
+}

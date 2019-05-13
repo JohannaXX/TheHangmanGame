@@ -132,4 +132,4 @@ document.getElementById("playAgain").onclick = function(playAgain) {
     
     document.getElementById("imgX").src = "https://raw.githubusercontent.com/JohannaXX/TheHangmanGame/master/images/img0.jpg";
     game();
-}
+};
